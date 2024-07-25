@@ -1,5 +1,5 @@
 {% set name = "pytest-subprocess" %}
-{% set version = "1.5.1" %}
+{% set version = "1.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 452419727271ab97f0a07964ac83d120f8e634d874d7fba5de71bd0fe3146df9
+  sha256: ad3ca8a35e798bf9c82d9f16d88700b30d98c5a28236117b86c5d6e581a8ed97
 
 build:
   noarch: python
